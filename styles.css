@@ -1,0 +1,134 @@
+/* Styling the body */
+body {
+  font-family: 'Verdana', sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Styling the header */
+header {
+  background-color: #2c3e50; /* Dark blue background */
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+header h1 {
+  font-family: 'Georgia', serif;
+  font-size: 36px;
+  margin: 0;
+}
+
+header p {
+  font-size: 18px;
+  margin-top: 10px;
+  font-style: italic;
+}
+
+/* Styling the navigation bar */
+nav {
+  background-color: #34495e; /* Slightly lighter dark blue */
+  padding: 15px 0;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  width: 20%;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  display: block;
+  text-align: center;
+  font-size: 18px;
+}
+
+nav ul li a:hover {
+  background-color: #e67e22; /* Orange background on hover */
+}
+
+/* Styling the main section */
+main {
+  background-color: #ffffff;
+  font-size: 18px;
+  padding: 40px 20px;
+}
+
+main h1 {
+  text-align: center;
+  font-family: 'Georgia', serif;
+  color: #2c3e50;
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+.book-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.book-item {
+  background-color: #ecf0f1; /* Light gray background */
+  width: 25%;
+  padding: 20px;
+  text-align: center;
+  box-sizing: border-box;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.book-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.book-item h2 {
+  color: #2c3e50;
+  font-size: 20px;
+  margin: 15px 0 10px;
+}
+
+.book-item p {
+  font-size: 16px;
+  color: #7f8c8d;
+}
+
+/* Hover effect for book items */
+.book-item:hover {
+  transform: scale(1.05);
+}
+
+/* Styling the footer */
+footer {
+  background-color: #34495e; /* Same as navigation */
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 16px;
+}
+
+/* Styling the list items */
+li {
+  display: inline-block;
+  width: 20%; /* Each list item in nav will take 20% of the width */
+}
+
+/* Styling the paragraph */
+p {
+  line-height: 1.6;
+}
